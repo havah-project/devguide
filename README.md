@@ -26,7 +26,7 @@ HAVAH의 스마트 컨트랙트를 작성하는 방법은 아이콘 자바스코
 - [자바스코어 allow methods](https://github.com/icon-project/devportal/blob/master/java-score-1/allowed-methods)
  
 
-## Havah SDK
+## HAVAH SDK
 
 현재 HAVAH 전용 SDK는 준비되어 있지 않습니다. ICON SDK를 사용하여 연동이 가능합니다.
 
