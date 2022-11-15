@@ -9,21 +9,21 @@ HAVAH 는 [ICON](https://www.icon.foundation/) 을 기반으로 한 블록체인
 
 HAVAH는 아이콘 자바 스코어와 동일한 방식으로 스마트 컨트랙트를 작성합니다.
 
-먼저 아이콘 자바 스코어 샘플 문서를 확인하시길 바랍니다.
+먼저 하바 스마트 컨트랙트 샘플 문서를 확인하시길 바랍니다.
 
-- [ICON Java SCORE sample](https://github.com/icon-project/java-score-examples)
+- [HAVAH Smart Contract sample](https://github.com/havah-project/smart-contract-examples)
 
 
-스마트 컨트랙트 작성시 사용되는 자바 스코어 API 및 유틸리티 라이브러리(scorex) 는 아래 문서를 참고하세요.
+스마트 컨트랙트 작성시 사용되는 API 및 유틸리티 라이브러리(scorex) 는 아래 문서를 참고하세요.
 
-- [Java SCORE API Document](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
+- [Smart Contract API Document](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
 
 - [scorex](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
  
 
 스마트 컨트랙트 작성시 허용된 자바 메소드만 사용할수 있습니다. 허용 메소드 목록은 아래 링크에서 확인하실 수 있습니다.
 
-- [Java SCORE allowed methods](https://github.com/icon-project/devportal/blob/master/java-score-1/allowed-methods)
+- [Smart Contract allowed methods](https://github.com/icon-project/devportal/blob/master/java-score-1/allowed-methods)
  
 
 ## HAVAH SDK

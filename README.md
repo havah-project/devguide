@@ -9,21 +9,21 @@ This document contains the guide for testnet access information and smart contra
 
 HAVAH writes smart contracts in the same way as ICON Java SCORE.
 
-Please check the ICON Java SCORE sample document first.
+Please check the HAVAH Smart Contract sample document first.
 
-- [ICON Java SCORE sample](https://github.com/icon-project/java-score-examples)
+- [HAVAH Smart Contract sample](https://github.com/havah-project/smart-contract-examples)
 
 
-Refer to the document below for the JAVA score API and utility library (scorex) used when writing smart contracts.
+Refer to the document below for the Smart Contract API and utility library (scorex) used when writing smart contracts.
 
-- [Java SCORE API Document](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
+- [Smart Contract API Document](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
 
 - [scorex](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
  
 
 Only allowed Java methods can be used when writing smart contracts. A list of allow methods can be found at the link below.
 
-- [Java SCORE allowed methods](https://github.com/icon-project/devportal/blob/master/java-score-1/allowed-methods)
+- [Smart Contract allowed methods](https://github.com/icon-project/devportal/blob/master/java-score-1/allowed-methods)
  
 
 ## HAVAH SDK
