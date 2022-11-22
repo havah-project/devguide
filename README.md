@@ -53,6 +53,11 @@ Vega is the name of the HAVAH testnet. Access information is as follows.
 
 	- If you pass your wallet address, we will deposit 100HVH to that address.
 
+## Trouble shooting
+
+- Building in a windows WSL + ubuntu environment, the run directory must be located in the Ubuntu filesystem, not below /mnt/c
+
+- If the javaee/exec/build/native/ folder is empty after make in the project folder, you need to create a native file by proceeding make in javaee/
 
 ## Development reference site
 

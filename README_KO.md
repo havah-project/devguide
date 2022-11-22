@@ -53,6 +53,12 @@ Vega 는 HAVAH 테스트넷의 이름입니다. 접근 정보는 아래와 같�
 
 	- 지갑주소를 전달하시면 해당 주소로 100HVH를 입금해드립니다.
 
+## Trouble shooting
+
+- windows WSL + unbuntu 환경에서 빌드시 run 디렉토리는 /mnt/c 이하가 아닌 우분투 파일시스템에 위치해야 합니다.
+
+- 프로젝트 폴더에서 make 빌드 후에 javaee/exec/build/native/  폴더가 비어 있을 경우, javaee/ 에서 make 빌드 진행하여 native 파일을 생성해야 합니다.
+
 
 ## 개발 참고 사이트
 
