@@ -18,7 +18,7 @@ HAVAH는 아이콘 자바 스코어와 동일한 방식으로 스마트 컨트�
 
 - [Smart Contract API Document](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
 
-- [scorex](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
+- [scorex](https://github.com/icon-project/javaee-scorex)
  
 
 스마트 컨트랙트 작성시 허용된 자바 메소드만 사용할수 있습니다. 허용 메소드 목록은 아래 링크에서 확인하실 수 있습니다.

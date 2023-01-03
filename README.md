@@ -18,7 +18,7 @@ Refer to the document below for the Smart Contract API and utility library (scor
 
 - [Smart Contract API Document](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
 
-- [scorex](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/index.html)
+- [scorex](https://github.com/icon-project/javaee-scorex)
  
 
 Only allowed Java methods can be used when writing smart contracts. A list of allow methods can be found at the link below.
