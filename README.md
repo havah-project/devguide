@@ -62,7 +62,7 @@ Vega is the name of the HAVAH testnet. Access information is as follows.
 
 	- [https://scan.vega.havah.io](https://scan.vega.havah.io)
 
-- Fauset
+- Faucet
 
 	- If you pass your wallet address, we will deposit 100HVH to that address.
 
