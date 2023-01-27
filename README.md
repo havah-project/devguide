@@ -1,4 +1,4 @@
-# Welcome
+# HAVAH developer's guide
 
 HAVAH is a blockchain engine based on [ICON](https://www.icon.foundation/). Basic operations such as smart contract creation and distribution, transaction request, and json-RPC interworking are the same as those of ICON.
 
