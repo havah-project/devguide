@@ -82,7 +82,7 @@ The access information of HAVAH mainnet is as follows.
 
 	- [https://scan.havah.io](https://scan.havah.io)
 
-## Trouble shooting
+## Troubleshooting
 
 - Building in a windows WSL + ubuntu environment, the run directory must be located in the Ubuntu filesystem, not below /mnt/c
 
