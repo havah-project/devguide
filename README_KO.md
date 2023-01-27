@@ -82,7 +82,7 @@ HAVAH 메인넷의 접근 정보는 아래와 같습니다.
 	- [https://scan.havah.io](https://scan.havah.io)
 
 
-## Trouble shooting
+## Troubleshooting
 
 - windows WSL + unbuntu 환경에서 빌드시 run 디렉토리는 /mnt/c 이하가 아닌 우분투 파일시스템에 위치해야 합니다.
 
