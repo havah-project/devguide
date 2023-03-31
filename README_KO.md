@@ -81,8 +81,15 @@ HAVAH 메인넷의 접근 정보는 아래와 같습니다.
 
 	- [https://scan.havah.io](https://scan.havah.io)
 
+## HAVAH CHAIN NODE
 
-## Troubleshooting
+Docker 이미지를 이용하여 HAVAH 블록체인 노드를 운영할 수 있습니다.
+
+- HAVAH chain node docker
+
+	- [https://github.com/havah-project/havah-chain-node-docker](https://github.com/havah-project/havah-chain-node-docker)
+
+## Tips
 
 - windows WSL + unbuntu 환경에서 빌드시 run 디렉토리는 /mnt/c 이하가 아닌 우분투 파일시스템에 위치해야 합니다.
 
@@ -113,6 +120,25 @@ HAVAH 메인넷의 접근 정보는 아래와 같습니다.
 	8. 지갑 백업 다이얼로그에서 '지갑 백업 파일(Keystore 파일) 다운로드'를 선택하면 키스토어 파일을 다운로드 받을 수 있습니다.
 	<img src="./img/iconex_ko_5.png" width="50%" />
 
+- goloop CLI 툴을 사용하여 트랜젝션 전송시 예상 스텝을 확인하려면 --estimate 옵션을 붙여야 합니다.
+
+```shell
+goloop rpc sendtx transfer \
+    --uri http://localhost:9080/api/v3 \
+    --key_store ./data/keystore_gov.json --key_password gochain \
+    --nid 0x110 --step_limit 1000000 \
+    --to hxb6b5791be0b5ef67063b3c10b840fb81514db2fd \
+    --estimate \
+    --value 20000000000000000000
+```
+
+- 트랜젝션 수수료는 스텝 프라이스 * 스텝수로 계산됩니다. 예상 수수료를 구하려면 --estimate 옵션으로 알아낸 예상 스텝에 스텝프라이스를 곱하여 알 수 있습니다. 스텝 프라이스는 Chain Score(cx0000000000000000000000000000000000000000)의 getStepPrice 를 호출하여 알 수 있습니다.
+
+```shell
+goloop rpc call --to cx0000000000000000000000000000000000000000 \
+    --uri http://localhost:9080/api/v3 \
+    --method getStepPrice
+```
 
 
 ## 개발 참고 사이트

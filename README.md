@@ -82,7 +82,15 @@ The access information of HAVAH mainnet is as follows.
 
 	- [https://scan.havah.io](https://scan.havah.io)
 
-## Troubleshooting
+## HAVAH CHAIN NODE
+
+HAVAH blockchain nodes can be operated using Docker images.
+
+- HAVAH chain node docker
+
+	- [https://github.com/havah-project/havah-chain-node-docker](https://github.com/havah-project/havah-chain-node-docker)
+
+## Tips
 
 - Building in a windows WSL + ubuntu environment, the run directory must be located in the Ubuntu filesystem, not below /mnt/c
 
@@ -113,6 +121,25 @@ The access information of HAVAH mainnet is as follows.
 	8. You can download the keystore file by selecting 'Download Keystore file(wallet backup file)'.
 	<img src="./img/iconex_en_5.png" width="50%" />
 
+- When sending a transaction using the goloop CLI tool, you need to add the --estimate option to get an estimated step.
+
+```shell
+goloop rpc sendtx transfer \
+    --uri http://localhost:9080/api/v3 \
+    --key_store ./data/keystore_gov.json --key_password gochain \
+    --nid 0x110 --step_limit 1000000 \
+    --to hxb6b5791be0b5ef67063b3c10b840fb81514db2fd \
+    --estimate \
+    --value 20000000000000000000
+```
+
+- Transation fee is calculated as step price * number of steps. To get the estimated fee, multiply the stepprice by the estimated step found with the --estimate option. The step price can be obtained by calling getStepPrice of Chain Score (cx0000000000000000000000000000000000000000).
+
+```shell
+goloop rpc call --to cx0000000000000000000000000000000000000000 \
+    --uri http://localhost:9080/api/v3 \
+    --method getStepPrice
+```
 
 ## Development reference site
 
