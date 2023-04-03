@@ -90,13 +90,42 @@ HAVAH blockchain nodes can be operated using Docker images.
 
 	- [https://github.com/havah-project/havah-chain-node-docker](https://github.com/havah-project/havah-chain-node-docker)
 
+### Keystore
+
+A keystore file can be created using the goloop CLI. See link below.
+
+- [https://github.com/havah-project/goloop-havah/blob/main/doc/goloop_cli.md#goloop-ks-gen](https://github.com/havah-project/goloop-havah/blob/main/doc/goloop_cli.md#goloop-ks-gen)
+
+Or refer to Tips, 'How to create a keystore file with a private key'.
+
+### Node types
+
+Due to the delegated nature of the ICON network, there are currently two different types of nodes: API Endpoints and Validators. API Endpoints are also called Citizen nodes.
+
+#### API Endpoints (=Citizen)
+
+- Stores full blockchain state
+- Read capabilities
+- Provides data to users
+
+#### Validators
+
+- Stores full blockchain state
+- Read / write capabilities
+- Provides data to API Endpoints and other validators
+
+ For more information on node types, please refer to the link below.
+ 
+ - [API Endpoints](https://docs.icon.community/concepts/network/api-endpoints)
+ - [Validator nodes](https://docs.icon.community/concepts/network/validator-nodes)
+
 ## Tips
 
 - Building in a windows WSL + ubuntu environment, the run directory must be located in the Ubuntu filesystem, not below /mnt/c
 
 - If the javaee/exec/build/native/ folder is empty after make in the project folder, you need to create a native file by proceeding make in javaee/
 
-- A Chrome ICONex wallet is required to create a keystore file with the private key of the account created in the HAVAH wallet.
+- How to create a keystore file with a private key:
 
 	1. Install ICONex chrome web browser extenstion.
 

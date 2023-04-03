@@ -89,13 +89,42 @@ Docker 이미지를 이용하여 HAVAH 블록체인 노드를 운영할 수 있�
 
 	- [https://github.com/havah-project/havah-chain-node-docker](https://github.com/havah-project/havah-chain-node-docker)
 
+### Keystore
+
+키스토어 파일은 goloop CLI를 사용해 생성할 수 있습니다. 아래 링크를 참고하세요.
+
+- [https://github.com/havah-project/goloop-havah/blob/main/doc/goloop_cli.md#goloop-ks-gen](https://github.com/havah-project/goloop-havah/blob/main/doc/goloop_cli.md#goloop-ks-gen)
+
+혹은 Tips의 '하바지갑에서 생성한 개인 키로 키스토어를 생성하는 방법'을 참고하십시오.
+
+### Node types
+
+HAVAH 블록체인 네크워크에는 두 가지 유형의 노드가 있습니다. API Endpoints와 Validator 노드입니다. API Endpoints는 Citizen 노드라고도 불립니다.
+
+#### API Endpoints (=Citizen)
+
+- 전체 블록체인 상태 저장
+- 블록체인 상태 읽기 기능
+- 사용자에게 데이터 제공
+
+#### Validators
+
+- 전체 블록체인 상태 저장
+- 블록체인 상태 읽기/쓰기 기능
+- API Endpoints 및 다른 Validator에 데이터 제공
+
+ 노드 타입에 대해 좀 더 자세한 정보가 필요하시면 아래 링크를 참고하세요.
+ 
+ - [API Endpoints](https://docs.icon.community/concepts/network/api-endpoints)
+ - [Validator nodes](https://docs.icon.community/concepts/network/validator-nodes)
+
 ## Tips
 
 - windows WSL + unbuntu 환경에서 빌드시 run 디렉토리는 /mnt/c 이하가 아닌 우분투 파일시스템에 위치해야 합니다.
 
 - 프로젝트 폴더에서 make 빌드 후에 javaee/exec/build/native/  폴더가 비어 있을 경우, javaee/ 에서 make 빌드 진행하여 native 파일을 생성해야 합니다.
 
-- 하바지갑에서 만든 계정의 개인 키로 키스토어 파일을 생성하려면 크롬 ICONex 지갑이 필요합니다.
+- 개인 키로 키스토어 파일을 생성하는 방법:
 
 	1. ICONex 크롬 웹브라우저 확장 프로그램을 설치합니다.
 
