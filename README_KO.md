@@ -36,6 +36,19 @@ optimizedJar {
 스마트 컨트랙트 작성시 허용된 자바 메소드만 사용할수 있습니다. 허용 메소드 목록은 아래 링크에서 확인하실 수 있습니다.
 
 - [Smart Contract allowed methods](https://github.com/icon-project/devportal/blob/master/java-score-1/allowed-methods)
+
+### ICON JAVA SCORE Toutorials
+
+ICON 자바 스코어 튜토리얼을 참고하실수 있습니다.
+
+- Java Tutorial Part 1: Setting Development Environment and Writing Smart Contract
+https://coinmarketcap.com/community/articles/644b8d1cfec63d16dc58e86e/
+
+- Java Tutorial Part 2: Deploying the Smart Contract and Interacting with the Smart Contract Onchain
+https://coinmarketcap.com/community/articles/6453908ac1d7e422b683e990/
+
+- Java Tutorial Part 3: Unit Testing
+https://coinmarketcap.com/community/articles/6458bc59058ca27821194dd5/
  
 
 ## HAVAH SDK

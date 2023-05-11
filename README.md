@@ -33,11 +33,23 @@ optimizedJar {
 }
 ```
 
-
 Only allowed Java methods can be used when writing smart contracts. A list of allow methods can be found at the link below.
 
 - [Smart Contract allowed methods](https://github.com/icon-project/devportal/blob/master/java-score-1/allowed-methods)
- 
+
+### ICON JAVA SCORE Toutorials
+
+Also, you can refer to the ICON JAVA SCORE tutorials.
+
+- Java Tutorial Part 1: Setting Development Environment and Writing Smart Contract
+  https://coinmarketcap.com/community/articles/644b8d1cfec63d16dc58e86e/
+
+- Java Tutorial Part 2: Deploying the Smart Contract and Interacting with the Smart Contract Onchain
+  https://coinmarketcap.com/community/articles/6453908ac1d7e422b683e990/
+
+- Java Tutorial Part 3: Unit Testing
+  https://coinmarketcap.com/community/articles/6458bc59058ca27821194dd5/
+
 
 ## HAVAH SDK
 
