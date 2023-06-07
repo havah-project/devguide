@@ -41,15 +41,46 @@ Only allowed Java methods can be used when writing smart contracts. A list of al
 
 Also, you can refer to the ICON JAVA SCORE tutorials.
 
-- Java Tutorial Part 1: Setting Development Environment and Writing Smart Contract
-  https://coinmarketcap.com/community/articles/644b8d1cfec63d16dc58e86e/
+- [Java Tutorial Part 1: Setting Development Environment and Writing Smart Contract](https://icon.community/tutorials/java-tutorial-part-1-setting-development-environment-and-writing-smart-contract)
 
-- Java Tutorial Part 2: Deploying the Smart Contract and Interacting with the Smart Contract Onchain
-  https://coinmarketcap.com/community/articles/6453908ac1d7e422b683e990/
+- [Java Tutorial Part 2: Deploying the Smart Contract and Interacting with the Smart Contract Onchain](https://icon.community/tutorials/java-tutorial-part-2-deploying-the-smart-contract-and-interacting-with-the-smart-contract-onchain)
 
-- Java Tutorial Part 3: Unit Testing
-  https://coinmarketcap.com/community/articles/6458bc59058ca27821194dd5/
+- [Java Tutorial Part 3: Unit Testing](https://icon.community/tutorials/java-tutorial-part-3-unit-testing)
 
+## HAVAH SCAN
+
+HAVAH Scan is block explorer that can check all transactions and blocks, address and token information that occur in the HAVAH blockchain.
+
+### Smart Contract Name and Symbol
+
+If you implement name() in a smart contract, the name of that smart contract will be displayed in the code tab of HAVAH Scan. The name is displayed up to 256 characters.
+
+```java
+@External(readonly=true)
+public String name() {
+	return "KIKI Trip";
+}
+```
+
+<img src="./img/contract_1.png" />
+
+For FT and NFT contracts, a token symbol is displayed after the name.
+
+<img src="./img/contract_2.png" />
+
+
+### Smart Contract API name
+
+It is recommended that the length of the smart contract API name be less than 30 characters. In HAVAH Scan, API names are displayed up to 30 characters.
+
+### Handling contract errors
+
+When revert is triggered by calling [Context.revert(int,String)](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/score/Context.html#revert(int,java.lang.String)), an error code and error message can be passed. The error code is displayed in the Status when checking the transaction in HAVAH Scan.
+
+<img src="./img/revert_1.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
+
+- Reverted(0) : The number in () is the error code passed as the first parameter when calling Context.revert(int,String).
+- uint(0x20) : This is the error code delivered by the engine when revert occurs, and the default value is 32 (0x20). When calling revert(), if an error code specified by the user is passed, the value of 32 + the user's error code is passed.
 
 ## HAVAH SDK
 
@@ -70,13 +101,13 @@ Vega is the name of the HAVAH testnet. Access information is as follows.
 
 	- 0x101
 
-- Block Explorer (HAVAH scan)
+- Block Explorer (HAVAH Scan)
 
 	- [https://scan.vega.havah.io](https://scan.vega.havah.io)
 
 - Faucet
 
-	- If you pass your wallet address, we will deposit 100HVH to that address.
+	- If you pass your wallet address, we will deposit 20HVH to that address.
 
 ## Mainnet
 
@@ -90,7 +121,7 @@ The access information of HAVAH mainnet is as follows.
 
 	- 0x100
 
-- Block Explorer (HAVAH scan)
+- Block Explorer (HAVAH Scan)
 
 	- [https://scan.havah.io](https://scan.havah.io)
 

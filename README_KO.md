@@ -41,22 +41,52 @@ optimizedJar {
 
 ICON 자바 스코어 튜토리얼을 참고하실수 있습니다.
 
-- Java Tutorial Part 1: Setting Development Environment and Writing Smart Contract
-https://coinmarketcap.com/community/articles/644b8d1cfec63d16dc58e86e/
+- [Java Tutorial Part 1: Setting Development Environment and Writing Smart Contract](https://icon.community/tutorials/java-tutorial-part-1-setting-development-environment-and-writing-smart-contract)
 
-- Java Tutorial Part 2: Deploying the Smart Contract and Interacting with the Smart Contract Onchain
-https://coinmarketcap.com/community/articles/6453908ac1d7e422b683e990/
+- [Java Tutorial Part 2: Deploying the Smart Contract and Interacting with the Smart Contract Onchain](https://icon.community/tutorials/java-tutorial-part-2-deploying-the-smart-contract-and-interacting-with-the-smart-contract-onchain)
 
-- Java Tutorial Part 3: Unit Testing
-https://coinmarketcap.com/community/articles/6458bc59058ca27821194dd5/
- 
+- [Java Tutorial Part 3: Unit Testing](https://icon.community/tutorials/java-tutorial-part-3-unit-testing)
+
+## HAVAH SCAN
+
+HAVAH Scan은 HAVAH 블록체인에서 발생하는 모든 트랜젝션 및 블록, 어드레스와 토큰 정보를 확인할 수 있는 블록 익스플로어를 말합니다. 
+
+### Smart Contract Name and Symbol
+
+스마트 컨트랙트에서 name() 함수를 구현하면 HAVAH Scan의 Code 탭에서 해당 스마트 컨트랙트의 이름이 표시됩니다. 이름은 최대 256자까지 표시됩니다.
+
+```java
+@External(readonly=true)
+public String name() {
+	return "KIKI Trip";
+}
+```
+
+<img src="./img/contract_1.png" />
+
+FT, NFT 컨트랙트의 경우 이름 뒤에 토큰 심볼이 표시됩니다.
+
+<img src="./img/contract_2.png" />
+
+
+### Smart Contract API name
+
+스마트 컨트랙트 API 이름 길이는 30자 이내를 권장합니다. HAVAH Scan에서 API 이름은 30자까지 표시됩니다.  
+
+### Handling contract errors
+
+[Context.revert(int,String)](https://www.javadoc.io/doc/foundation.icon/javaee-api/latest/score/Context.html#revert(int,java.lang.String))를 호출하여 revert를 발생시킬때 에러 코드와 에러 메세지를 전달할수 있습니다. 에러 코드는 HAVAH Scan에서 트랙젝션 확인시 Status에 표시가 됩니다.
+
+<img src="./img/revert_1.png" width="50%" style="margin-left: auto; margin-right: auto; display: block;" />
+
+- Reverted(0) : ()안에 숫자는 Context.revert(int,String) 호출시 첫번째 파라미터로 전달한 에러코드입니다. 
+- uint(0x20) : revert 발생시 엔진에서 전달해주는 에러코드로 기본값은 32(0x20)입니다. revert() 호출시 사용자가 지정한 에러코드가 전달되었다면 32 + 사용자 에러코드 값으로 전달됩니다.   
 
 ## HAVAH SDK
 
 현재 HAVAH 전용 SDK는 준비되어 있지 않습니다. ICON SDK를 사용하여 연동이 가능합니다.
 
 - [Java SDK](https://docs.icon.community/icon-stack/client-apis/java-sdk)
-
 
 ## Vega (testnet)
 
@@ -70,13 +100,13 @@ Vega 는 HAVAH 테스트넷의 이름입니다. 접근 정보는 아래와 같�
 
 	- 0x101
 
-- Block Explorer (HAVAH scan)
+- Block Explorer (HAVAH Scan)
 
 	- [https://scan.vega.havah.io](https://scan.vega.havah.io)
 
 - Faucet
 
-	- 지갑주소를 전달하시면 해당 주소로 100HVH를 입금해드립니다.
+	- 지갑주소를 전달하시면 해당 주소로 20HVH를 입금해드립니다.
 
 ## Mainnet
 
@@ -90,7 +120,7 @@ HAVAH 메인넷의 접근 정보는 아래와 같습니다.
 
 	- 0x100
 
-- Block Explorer (HAVAH scan)
+- Block Explorer (HAVAH Scan)
 
 	- [https://scan.havah.io](https://scan.havah.io)
 
