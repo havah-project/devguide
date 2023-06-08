@@ -188,7 +188,7 @@ For information on BTP (Blockchain Transmission Protocol), please refer to the l
 	- 0xcd633c
 
 - BTP Scan
-	- [https://btp-scan.vega.havah.io](https://btp-scan.vega.havah.io/)
+	- [https://scan.altair.havah.io](https://scan.altair.havah.io)
 
 ## Tips
 
