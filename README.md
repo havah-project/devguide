@@ -162,6 +162,34 @@ Due to the delegated nature of the ICON network, there are currently two differe
  - [API Endpoints](https://docs.icon.community/concepts/network/api-endpoints)
  - [Validator nodes](https://docs.icon.community/concepts/network/validator-nodes)
 
+## BTP
+
+For information on BTP (Blockchain Transmission Protocol), please refer to the link below.
+
+- [Relay System for BTP 2.0](https://github.com/icon-project/btp2)
+
+- [Java Contracts for BTP2](https://github.com/icon-project/btp2-java)
+
+- [Solidity Contracts for BTP2](https://github.com/icon-project/btp2-solidity)
+
+
+### BTP Network (Testnet)
+
+- Endpoint
+	- https://btp.vega.havah.io
+
+- RPC URL
+	- https://btp.vega.havah.io/api/v3/icon_dex
+
+- NID
+	- 0x111
+
+- CID
+	- 0xcd633c
+
+- BTP Scan
+	- [https://btp-scan.vega.havah.io](https://btp-scan.vega.havah.io/)
+
 ## Tips
 
 - Building in a windows WSL + ubuntu environment, the run directory must be located in the Ubuntu filesystem, not below /mnt/c

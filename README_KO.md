@@ -161,6 +161,34 @@ HAVAH 블록체인 네크워크에는 두 가지 유형의 노드가 있습니�
  - [API Endpoints](https://docs.icon.community/concepts/network/api-endpoints)
  - [Validator nodes](https://docs.icon.community/concepts/network/validator-nodes)
 
+## BTP
+
+BTP(Blockchain Transmission Protocol) 관련 정보는 아래 링크를 참고하세요.
+
+- [Relay System for BTP 2.0](https://github.com/icon-project/btp2)
+
+- [Java Contracts for BTP2](https://github.com/icon-project/btp2-java)
+
+- [Solidity Contracts for BTP2](https://github.com/icon-project/btp2-solidity)
+
+
+### BTP Network (Testnet)
+
+- Endpoint
+	- https://btp.vega.havah.io
+
+- RPC URL
+	- https://btp.vega.havah.io/api/v3/icon_dex
+
+- NID
+	- 0x111
+
+- CID
+	- 0xcd633c
+
+- BTP Scan
+	- [https://btp-scan.vega.havah.io](https://btp-scan.vega.havah.io/)
+
 ## Tips
 
 - windows WSL + unbuntu 환경에서 빌드시 run 디렉토리는 /mnt/c 이하가 아닌 우분투 파일시스템에 위치해야 합니다.
