@@ -88,6 +88,12 @@ FT, NFT 컨트랙트의 경우 이름 뒤에 토큰 심볼이 표시됩니다.
 
 - [Java SDK](https://docs.icon.community/icon-stack/client-apis/java-sdk)
 
+## Altair (BTP testnet)
+
+Altair 는 HAVAH BTP 테스트넷의 이름입니다. BTP를 테스트 하려면, Altair에 접속해야 합니다. Vega나 메인넷에서는 BTP를 지원하지 않습니다.
+
+자세한 정보는 BTP 세션을 참고하세요.
+
 ## Vega (testnet)
 
 Vega 는 HAVAH 테스트넷의 이름입니다. 접근 정보는 아래와 같습니다.
@@ -172,13 +178,13 @@ BTP(Blockchain Transmission Protocol) 관련 정보는 아래 링크를 참고�
 - [Solidity Contracts for BTP2](https://github.com/icon-project/btp2-solidity)
 
 
-### BTP Network (Testnet)
+### BTP Test Network (Altair)
 
 - Endpoint
-	- https://btp.vega.havah.io
+	- https://ctz.altair.havah.io
 
 - RPC URL
-	- https://btp.vega.havah.io/api/v3/icon_dex
+	- https://ctz.altair.havah.io/api/v3/icon_dex
 
 - NID
 	- 0x111
