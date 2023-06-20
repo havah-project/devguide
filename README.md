@@ -92,7 +92,7 @@ Currently, there is no dedicated SDK for HAVAH. Integration is possible using th
 
 Altair is the name of the HAVAH BTP testnet. To test BTP, you must connect to Altair. We do not yet support BTP on Vega or Mainnet.
 
-See BTP Session for more information.
+See [BTP Session](#btp) for more information.
 
 ## Vega (testnet)
 
@@ -188,9 +188,6 @@ For information on BTP (Blockchain Transmission Protocol), please refer to the l
 
 - NID
 	- 0x111
-
-- CID
-	- 0xcd633c
 
 - BTP Scan
     - [https://scan.altair.havah.io](https://scan.altair.havah.io)

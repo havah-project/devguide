@@ -92,7 +92,7 @@ FT, NFT 컨트랙트의 경우 이름 뒤에 토큰 심볼이 표시됩니다.
 
 Altair 는 HAVAH BTP 테스트넷의 이름입니다. BTP를 테스트 하려면, Altair에 접속해야 합니다. Vega나 메인넷에서는 BTP를 지원하지 않습니다.
 
-자세한 정보는 BTP 세션을 참고하세요.
+자세한 정보는 [BTP 세션](#btp)을 참고하세요.
 
 ## Vega (testnet)
 
@@ -188,9 +188,6 @@ BTP(Blockchain Transmission Protocol) 관련 정보는 아래 링크를 참고�
 
 - NID
 	- 0x111
-
-- CID
-	- 0xcd633c
 
 - BTP Scan
 	- [https://scan.altair.havah.io](https://scan.altair.havah.io)
