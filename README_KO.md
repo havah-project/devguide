@@ -112,7 +112,7 @@ Vega 는 HAVAH 테스트넷의 이름입니다. 접근 정보는 아래와 같�
 
 - Faucet
 
-	- 지갑주소를 전달하시면 해당 주소로 20HVH를 입금해드립니다.
+	- [https://faucet.vega.havah.io](https://faucet.vega.havah.io)
 
 ## Mainnet
 
@@ -191,6 +191,9 @@ BTP(Blockchain Transmission Protocol) 관련 정보는 아래 링크를 참고�
 
 - BTP Scan
 	- [https://scan.altair.havah.io](https://scan.altair.havah.io)
+
+- Faucet
+    - [https://faucet.altair.havah.io](https://faucet.altair.havah.io)
 
 ## Tips
 
