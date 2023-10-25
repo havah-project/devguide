@@ -203,28 +203,34 @@ BTP(Blockchain Transmission Protocol) 관련 정보는 아래 링크를 참고�
 
 - 개인 키로 키스토어 파일을 생성하는 방법:
 
-	1. ICONex 크롬 웹브라우저 확장 프로그램을 설치합니다.
+    1. ICONex 크롬 웹브라우저 확장 프로그램을 설치합니다.
 
-		- [ICONex - chrome 웹 스토어](https://chrome.google.com/webstore/detail/iconex/flpiciilemghbmfalicajoolhkkenfel)
+        - [ICONex - chrome 웹 스토어](https://chrome.google.com/webstore/detail/iconex/flpiciilemghbmfalicajoolhkkenfel)
 
-	2. ICONex - '내 지갑 가기' - '지갑 추가' 메뉴를 선택합니다.
+    2. ICONex - '내 지갑 가기' - '지갑 추가' 메뉴를 선택합니다.
 	
-	3. 지갑 추가 다이얼로그에서 '지갑 가져오기'를 선택합니다.
+    3. 지갑 추가 다이얼로그에서 '지갑 가져오기'를 선택합니다.
 	<img src="./img/iconex_ko_1.png" width="50%" />
 	
-	4. 지갑을 가져올 방법에서 '개인 키'를 선택합니다.
+    4. 지갑을 가져올 방법에서 '개인 키'를 선택합니다.
 	<img src="./img/iconex_ko_2.png" width="50%" />
 	
-	5. 코인 선택은 'ICON (ICX)'을 선택하고 '개인 키 입력' 항목에 추가할 개인키를 입력합니다.
+    5. 코인 선택은 'ICON (ICX)'을 선택하고 '개인 키 입력' 항목에 추가할 개인키를 입력합니다.
 	<img src="./img/iconex_ko_3.png" width="50%" />
 	
-	6. 비밀키로 추가된 지갑의 '지갑 백업' 메뉴를 선택합니다.
+    6. 비밀키로 추가된 지갑의 '지갑 백업' 메뉴를 선택합니다.
 	<img src="./img/iconex_ko_4.png" width="50%" />
 	
-	7. 지갑 비밀번호를 입력합니다.
+    7. 지갑 비밀번호를 입력합니다.
 	
-	8. 지갑 백업 다이얼로그에서 '지갑 백업 파일(Keystore 파일) 다운로드'를 선택하면 키스토어 파일을 다운로드 받을 수 있습니다.
+    8. 지갑 백업 다이얼로그에서 '지갑 백업 파일(Keystore 파일) 다운로드'를 선택하면 키스토어 파일을 다운로드 받을 수 있습니다.
 	<img src="./img/iconex_ko_5.png" width="50%" />
+  
+    9. 키스토어 파일의 BOM을 제거합니다.
+	```shell
+	sed -i '' '1s/^\xEF\xBB\xBF//' keystore.json
+	```
+
 
 - goloop CLI 툴을 사용하여 트랜젝션 전송시 예상 스텝을 확인하려면 --estimate 옵션을 붙여야 합니다.
 

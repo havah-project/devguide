@@ -203,28 +203,33 @@ For information on BTP (Blockchain Transmission Protocol), please refer to the l
 
 - How to create a keystore file with a private key:
 
-	1. Install ICONex chrome web browser extenstion.
+    1. Install ICONex chrome web browser extenstion.
 
-		- [ICONex - chrome web store](https://chrome.google.com/webstore/detail/iconex/flpiciilemghbmfalicajoolhkkenfel)
+        - [ICONex - chrome web store](https://chrome.google.com/webstore/detail/iconex/flpiciilemghbmfalicajoolhkkenfel)
 
-	2. Select ICONex - 'Access My Wallet' - 'Add Wallets'
+    2. Select ICONex - 'Access My Wallet' - 'Add Wallets'
 	
-	3. Select 'Load Wallet' in the Add Wallet dialog.
-	<img src="./img/iconex_en_1.png" width="50%" />
+    3. Select 'Load Wallet' in the Add Wallet dialog.
+    <img src="./img/iconex_en_1.png" width="50%" />
 	
-	4. Select 'Enter private key' in the Load Wallet dialog.
-	<img src="./img/iconex_en_2.png" width="50%" />
+    4. Select 'Enter private key' in the Load Wallet dialog.
+    <img src="./img/iconex_en_2.png" width="50%" />
 	
-	5. Select 'ICON (ICX)' and enter the private key.
-	<img src="./img/iconex_en_3.png" width="50%" />
+    5. Select 'ICON (ICX)' and enter the private key.
+    <img src="./img/iconex_en_3.png" width="50%" />
 	
-	6. Select the 'Backup wallet' menu of the wallet.
-	<img src="./img/iconex_en_4.png" width="50%" />
+    6. Select the 'Backup wallet' menu of the wallet.
+    <img src="./img/iconex_en_4.png" width="50%" />
 	
-	7. Enter Wallet password.
+    7. Enter Wallet password.
 	
-	8. You can download the keystore file by selecting 'Download Keystore file(wallet backup file)'.
-	<img src="./img/iconex_en_5.png" width="50%" />
+    8. You can download the keystore file by selecting 'Download Keystore file(wallet backup file)'.
+    <img src="./img/iconex_en_5.png" width="50%" />
+
+    9. Remove BOM from keystore file.
+  ```shell
+  sed -i '' '1s/^\xEF\xBB\xBF//' keystore.json
+  ```
 
 - When sending a transaction using the goloop CLI tool, you need to add the --estimate option to get an estimated step.
 
