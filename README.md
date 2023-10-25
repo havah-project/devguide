@@ -92,7 +92,7 @@ Currently, there is no dedicated SDK for HAVAH. Integration is possible using th
 
 Altair is the name of the HAVAH BTP testnet. To test BTP, you must connect to Altair. We do not yet support BTP on Vega or Mainnet.
 
-See [BTP Session](#btp) for more information.
+See [BTP Section](#btp) for more information.
 
 ## Vega (testnet)
 
@@ -179,9 +179,6 @@ For information on BTP (Blockchain Transmission Protocol), please refer to the l
 
 
 ### BTP Test Network (Altair)
-
-- Endpoint
-	- https://ctz.altair.havah.io
 
 - RPC URL
 	- https://ctz.altair.havah.io/api/v3/icon_dex
