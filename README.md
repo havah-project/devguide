@@ -88,6 +88,13 @@ Currently, there is no dedicated SDK for HAVAH. Integration is possible using th
 
 - [Java SDK](https://docs.icon.community/icon-stack/client-apis/java-sdk)
 
+## JSON-RPC API
+
+To use the JSON-RPC API, please refer to the link below.
+
+- [https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api](https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api)
+- [https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md](https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md)
+
 ## Altair (BTP testnet)
 
 Altair is the name of the HAVAH BTP testnet. To test BTP, you must connect to Altair. We do not yet support BTP on Vega or Mainnet.

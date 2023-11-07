@@ -88,6 +88,13 @@ FT, NFT 컨트랙트의 경우 이름 뒤에 토큰 심볼이 표시됩니다.
 
 - [Java SDK](https://docs.icon.community/icon-stack/client-apis/java-sdk)
 
+## JSON-RPC API
+
+JSON-RPC API를 사용하기 위해서는 아래 링크를 참고하세요.
+
+- [https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api](https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api)
+- [https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md](https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md)
+
 ## Altair (BTP testnet)
 
 Altair 는 HAVAH BTP 테스트넷의 이름입니다. BTP를 테스트 하려면, Altair에 접속해야 합니다. Vega나 메인넷에서는 BTP를 지원하지 않습니다.
