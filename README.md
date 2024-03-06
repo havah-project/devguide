@@ -95,12 +95,6 @@ To use the JSON-RPC API, please refer to the link below.
 - [https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api](https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api)
 - [https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md](https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md)
 
-## Altair (BTP testnet)
-
-Altair is the name of the HAVAH BTP testnet. To test BTP, you must connect to Altair. We do not yet support BTP on Vega or Mainnet.
-
-See [BTP Section](#btp) for more information.
-
 ## Vega (testnet)
 
 Vega is the name of the HAVAH testnet. Access information is as follows.
@@ -183,21 +177,6 @@ For information on BTP (Blockchain Transmission Protocol), please refer to the l
 - [Java Contracts for BTP2](https://github.com/icon-project/btp2-java)
 
 - [Solidity Contracts for BTP2](https://github.com/icon-project/btp2-solidity)
-
-
-### BTP Test Network (Altair)
-
-- RPC URL
-	- https://ctz.altair.havah.io/api/v3/icon_dex
-
-- NID
-	- 0x111
-
-- BTP Scan
-    - [https://scan.altair.havah.io](https://scan.altair.havah.io)
-
-- Faucet
-    - [https://faucet.altair.havah.io](https://faucet.altair.havah.io)
 
 ## Tips
 

@@ -95,12 +95,6 @@ JSON-RPC API를 사용하기 위해서는 아래 링크를 참고하세요.
 - [https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api](https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api)
 - [https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md](https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md)
 
-## Altair (BTP testnet)
-
-Altair 는 HAVAH BTP 테스트넷의 이름입니다. BTP를 테스트 하려면, Altair에 접속해야 합니다. Vega나 메인넷에서는 BTP를 지원하지 않습니다.
-
-자세한 정보는 [BTP 섹션](#btp)을 참고하세요.
-
 ## Vega (testnet)
 
 Vega 는 HAVAH 테스트넷의 이름입니다. 접근 정보는 아래와 같습니다.
@@ -183,21 +177,6 @@ BTP(Blockchain Transmission Protocol) 관련 정보는 아래 링크를 참고�
 - [Java Contracts for BTP2](https://github.com/icon-project/btp2-java)
 
 - [Solidity Contracts for BTP2](https://github.com/icon-project/btp2-solidity)
-
-
-### BTP Test Network (Altair)
-
-- RPC URL
-	- https://ctz.altair.havah.io/api/v3/icon_dex
-
-- NID
-	- 0x111
-
-- BTP Scan
-	- [https://scan.altair.havah.io](https://scan.altair.havah.io)
-
-- Faucet
-    - [https://faucet.altair.havah.io](https://faucet.altair.havah.io)
 
 ## Tips
 
