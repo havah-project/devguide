@@ -92,7 +92,7 @@ Currently, there is no dedicated SDK for HAVAH. Integration is possible using th
 
 To use the JSON-RPC API, please refer to the link below.
 
-- [https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api](https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api)
+- [https://docs.icon.community/operate-icon/how-to-use-the-json-rpc-api](https://docs.icon.community/operate-icon/how-to-use-the-json-rpc-api)
 - [https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md](https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md)
 
 ## Vega (testnet)

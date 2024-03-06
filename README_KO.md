@@ -92,7 +92,7 @@ FT, NFT 컨트랙트의 경우 이름 뒤에 토큰 심볼이 표시됩니다.
 
 JSON-RPC API를 사용하기 위해서는 아래 링크를 참고하세요.
 
-- [https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api](https://docs.icon.community/getting-started/how-to-use-the-json-rpc-api)
+- [https://docs.icon.community/operate-icon/how-to-use-the-json-rpc-api](https://docs.icon.community/operate-icon/how-to-use-the-json-rpc-api)
 - [https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md](https://github.com/havah-project/goloop-havah/blob/main/doc/jsonrpc_v3.md)
 
 ## Vega (testnet)
